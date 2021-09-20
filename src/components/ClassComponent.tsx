@@ -58,7 +58,7 @@ class ClassComponent extends React.Component <{}, StateType> {
     }
     // "nNWFyGuPygky6Zq1ysV5NY4QgGP1to9A"
     // process.env.key
-    // componentDidMount() {
+    
 
         fetchResults=()=>{
             // let currentState = this.state.articles
@@ -70,11 +70,7 @@ class ClassComponent extends React.Component <{}, StateType> {
           }
         
         
-          // fetchResults()
-
-        //   fetch(url) = baseURL + '?api-key=' + 'nNWFyGuPygky6Zq1ysV5NY4QgGP1to9A' + '&page=' + this.state.pageNumber + '&q=' + this.state.search
-
-
+         
           
           componentDidUpdate(){
               console.log(this.state.articles)
